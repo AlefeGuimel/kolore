@@ -1,9 +1,19 @@
-const scriptHabilitado = false; 
+/*
+ * Script Name: Support Counter Evolved
+ * Version: v1.1.2
+ * Last Updated: 2022-12-21
+ * Author: RedAlert
+ * Author URL: https://twscripts.dev/
+ * Author Contact: redalert_tw (Discord)
+ * Approved: N/A
+ * Approved Date: 2023-01-18
+ * Mod: JawJaw
+ */
 
-if (!scriptHabilitado) {
-  alert('Este script está desabilitado no momento.');
-} else {
- 
+/*--------------------------------------------------------------------------------------
+ * This script can NOT be cloned and modified without permission from the script author.
+ --------------------------------------------------------------------------------------*/
+
 // User Input
 if (typeof DEBUG !== 'boolean') DEBUG = false;
 if (typeof HC_AMOUNT === 'undefined') HC_AMOUNT = null;
@@ -1603,4 +1613,3 @@ $.getScript('https://twscripts.dev/scripts/twSDK.js', async function () {
         return text.search('(---)') !== -1;
     }
 });
-}
