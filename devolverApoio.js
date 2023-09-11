@@ -1,4 +1,4 @@
-const scriptHabilitado = true; 
+const scriptHabilitado = false; 
 
 if (!scriptHabilitado) {
   alert('Este script está desabilitado no momento.');
